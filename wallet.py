@@ -7,7 +7,7 @@ class Wallet:
         self.fill_wallet()
 
     def fill_wallet(self):
-        """Adds coins to money list"""
+        """ Adds coins to money list """
         for index in range(8):
             self.money.append(coins.Quarter())
         for index in range(10):

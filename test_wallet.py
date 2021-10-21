@@ -1,6 +1,6 @@
 import unittest
-import wallet
-import customer
+from wallet import Wallet
+
 
 
 class TestWalletMoney(unittest.TestCase):
@@ -10,11 +10,11 @@ class TestWalletMoney(unittest.TestCase):
     def setUp(self):
         self.customer = wallet()
 
-    def test_instan_wallet_object(self):
-
-
-
-
+   
+    def __init__(self):
+        test_instan_wallet_object(self):
+        """ Testing for instantiating a Wallet object, test that its money list has a len of 88 """
+        
 
 
 # Wallet class:
