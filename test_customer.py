@@ -1,7 +1,5 @@
 import unittest
 from customer import Customer
-from coins import Coin
-import user_interface
 from cans import Cola, OrangeSoda, RootBeer
 
 class TestGetWalletCoin(unittest.TestCase):

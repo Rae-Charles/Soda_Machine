@@ -8,15 +8,14 @@ class TestWalletMoney(unittest.TestCase):
 
 
     def setUp(self):
-        self.customer = wallet()
+        self.customer = Wallet()
 
    
     def __init__(self):
-        test_instan_wallet_object(self):
         """ Testing for instantiating a Wallet object, test that its money list has a len of 88 """
-        
+        money_list = len(self.customer.fill_wallet)
+        self.assertEqual(len(self.money_list), money_list, '88')
 
 
-# Wallet class:
-# 1. fill_wallet
-# a. Instantiate a Wallet object, test that its money list has a len of 88
+if __name__ == '__main__':
+    unittest.main()
